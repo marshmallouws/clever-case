@@ -2,10 +2,8 @@
 using charging_stand_api.Exceptions;
 using charging_stand_api.Logic;
 using charging_stand_api.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace charging_stand_api.Controllers
 {

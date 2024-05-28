@@ -16,8 +16,5 @@ namespace charging_stand_api.Db
             // in memory database used for simplicity, change to a real db for production applications
             options.UseSqlite("Filename=ChargingStands.db");
         }
-
- 
-
     }
 }
