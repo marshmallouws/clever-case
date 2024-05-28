@@ -27,7 +27,7 @@ namespace charging_stand_api.Controllers
         /// <param name="id"></param>
         /// <returns>200 if the charging post is created</returns>
         [HttpPost(Name = "Create")]
-        public async Task<ActionResult> CreateChargingStand(string id)
+        public async Task<ActionResult<ChargingStand>> CreateChargingStand(string id)
         {
             try
             {
