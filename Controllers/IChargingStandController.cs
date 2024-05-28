@@ -5,8 +5,8 @@ namespace charging_stand_api.Controllers
 {
     public interface IChargingStandController
     {
-        public Task<ActionResult> CreateChargingStand();
-        public Task<ActionResult<ChargingStand>> VerifyChargingStand();
-        public Task<ActionResult> BlockChargingStand();
+        public Task<ActionResult<ChargingStand>> CreateChargingStand(string id);
+        public Task<ActionResult<ChargingStand>> VerifyChargingStand(string id);
+        public Task<ActionResult<ChargingStand>> BlockChargingStand(string id);
     }
 }

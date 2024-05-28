@@ -15,6 +15,7 @@ builder.Services.AddDbContext<ChargingStandContext>(Options =>
     Options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
